@@ -1,100 +1,100 @@
 function Stop-VisualStudio {
-    Stop-App ("devenv")
+    Stop-Application ("devenv")
 }
 
 function Stop-VSCode {
-    Stop-App ("Code - Insiders")
-    Stop-App ("Code")
+    Stop-Application ("Code - Insiders")
+    Stop-Application ("Code")
 }
 
 function Stop-Edage {
-    Stop-App("msedge")   
+    Stop-Application("msedge")   
 }
 
 function Stop-OneDrive {
-    Stop-App("OneDrive")   
+    Stop-Application("OneDrive")   
 }
 
 function Stop-PowerShell {
-    Stop-App("powershell")   
+    Stop-Application("powershell")   
 }
 
 function Stop-PowerShellCore {
-    Stop-App("pwsh")   
+    Stop-Application("pwsh")   
 }
 
 function Stop-Snagit {
-    Stop-App("Snagit32")
-    Stop-App("SnagitEditor")
+    Stop-Application("Snagit32")
+    Stop-Application("SnagitEditor")
 }
 
 function Stop-TaskManager {
-    Stop-App("Taskmgr")
+    Stop-Application("Taskmgr")
 }
 
 function Stop-NodeJs {
-    Stop-App("node")
+    Stop-Application("node")
 }
 
 function Stop-Rider {
-    Stop-App("rider64")
+    Stop-Application("rider64")
    
 }
 
 function Stop-Explorer {
-    Stop-App("explorer")
+    Stop-Application("explorer")
 }
 
 function Stop-dotnet {
-    Stop-App("dotnet")
+    Stop-Application("dotnet")
 }
 
 function Stop-Skype {
-    Stop-App("SkypeApp")
+    Stop-Application("SkypeApp")
 }
 
 function Stop-Java {
-    Stop-App("java")
+    Stop-Application("java")
 }
 
 function Stop-PhotoShop {
-    Stop-App("photoshop")
+    Stop-Application("photoshop")
 }
 
 function Stop-Chrome {
-    Stop-App("chrome")   
+    Stop-Application("chrome")   
 }
 
 function Stop-Firefox {
-    Stop-App("firefox")   
+    Stop-Application("firefox")   
 }
 
 
 function Stop-IntelliJ {
-    Stop-App("idea")   
+    Stop-Application("idea")   
 }
 function Stop-Dropbox {
-    Stop-App("Dropbox")
+    Stop-Application("Dropbox")
    
 }
 
 function Stop-AndroidStudio {
-    Stop-App("studio64")
+    Stop-Application("studio64")
 }
 
 function Stop-Spotify {
-    Stop-App("Spotify")
+    Stop-Application("Spotify")
 }
 
 function Stop-WhatsApp {
-    Stop-App("WhatsApp")
+    Stop-Application("WhatsApp")
 }
 
 function Stop-Telegram {
-    Stop-App("Telegram")
+    Stop-Application("Telegram")
    
 }
-function Stop-App {
+function Stop-Application {
     param (
         $AppName
     )
