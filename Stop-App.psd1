@@ -98,7 +98,7 @@ PrivateData = @{
         # Tags = @()
 
         # A URL to the license for this module.
-          LicenseUri = 'https://raw.githubusercontent.com/xsoheilalizadeh/Stop-App/master/LICENSE'
+          LicenseUri = 'https://raw.githubusercontent.com/xsoheilalizadeh/Stop-App/master/License.txt'
 
         # A URL to the main website for this project.
           ProjectUri = 'https://github.com/xsoheilalizadeh/Stop-App'
